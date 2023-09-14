@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="tMc]mg{P?}.i;m9z~HO)" x="-494" y="-19"><statement name="HANDLER"><block type="device_print_message" id="hmS7Z1@WaP{5GkC*8$Sq"><value name="text"><shadow type="text" id="]0@iaix_WRa=gAN/Jc?!"><field name="TEXT">Hello my name is Jarvis </field></shadow></value><next><block type="device_print_message" id=")+JS|xs7%n+o}FFC!GBI"><value name="text"><shadow type="text" id="4S%Yay4#|/#L(T?jxf9="><field name="TEXT">How can I help you today </field></shadow></value></block></next></block></statement></block><block type="device_forever" id="d4NOw38W=fk^#N3#rh?l" x="0" y="0"></block><block type="device_button_event" id="u%R_XAh*i,9)A@O1$Cl#" x="-136" y="192"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="VlO2GijY_h`W}@T_z@Uj"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement></block><block type="device_button_event" id="/FFPAD(HD|0#uHhT.18v" x="-410" y="213"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="d^.RyLk6~=TsBqCAT*BL"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field></block></statement></block><block type="device_button_event" id="vzd|Cgu|,LO_dk0bNQhL" x="106" y="338"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="-pRsDmP(~O1s]P2n%omo"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block><block type="device_gesture_event" id="Q1#Ks@1M9tCK`9;Jh^,x" x="-234" y="595"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_number" id="sRa`zi(){46bd0hqQ~ul"><value name="number"><block type="math_js_op" id="FE*:y{cd!Ol1ln^H%E4]"><mutation xmlns="http://www.w3.org/1999/xhtml" op-type="unary"></mutation><field name="OP">sqrt</field><value name="ARG0"><shadow type="math_number" id="SpmmU,%c1`p)da7mFYfB"><field name="NUM">4656</field></shadow></value></block></value><next><block type="device_show_number" id="mhU#3k4kwLjo}*0yk7:b"><value name="number"><block type="math_js_op" id="M|~::o1Mw1];Z!jhY]OJ"><mutation xmlns="http://www.w3.org/1999/xhtml" op-type="unary"></mutation><field name="OP">sqrt</field><value name="ARG0"><shadow type="math_number" id="8BV(hY{gPMzh*9aZ)h(@"><field name="NUM">563748</field></shadow></value></block></value></block></next></block></statement></block></xml>
